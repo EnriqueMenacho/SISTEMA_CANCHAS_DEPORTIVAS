@@ -1,0 +1,51 @@
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\bin\Debug\Gestion_Alquiler_Canchas.exe.config
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\bin\Debug\Gestion_Alquiler_Canchas.exe
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\bin\Debug\Gestion_Alquiler_Canchas.pdb
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\bin\Debug\System.Data.SqlClient.dll
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\bin\Debug\System.Data.SqlClient.xml
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\Gestion_Alquiler_Canchas.csproj.AssemblyReference.cache
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\Gestion_Alquiler_Canchas.csproj.SuggestedBindingRedirects.cache
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\Gestion_Alquiler_Canchas.Forms.form_AlquileresReservas.resources
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\Gestion_Alquiler_Canchas.Forms.form_clientes.resources
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\Gestion_Alquiler_Canchas.Forms.form_menu.resources
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\GYM_ADS.form_login.resources
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\Gestion_Alquiler_Canchas.Forms.form_modificarCliente.resources
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\Gestion_Alquiler_Canchas.Forms.form_nuevaReserva.resources
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\Gestion_Alquiler_Canchas.Forms.form_nuevoCliente.resources
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\Gestion_Alquiler_Canchas.Forms.form_Predios.resources
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\Gestion_Alquiler_Canchas.Forms.UTILITARIOS.form_nuevoUsuario.resources
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\Gestion_Alquiler_Canchas.Forms.UTILITARIOS.form_reportes.resources
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\Gestion_Alquiler_Canchas.Properties.Resources.resources
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\Gestion_Alquiler_Canchas.csproj.GenerateResource.cache
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\Gestion_Alquiler_Canchas.csproj.CoreCompileInputs.cache
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\Gestion_Alquiler_Canchas.csproj.CopyComplete
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\Gestion_Alquiler_Canchas.exe
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\Gestion_Alquiler_Canchas.pdb
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\Gestion_Alquiler_Canchas.Forms.GESTION_PREDIOS.form_agregarPredio.resources
+D:\UNIVERSIDAD\ANÁLISIS Y DISEÑO DE SISTEMAS II\Sistema cancha sintetica\Gestion_Alquiler_Canchas\obj\Debug\Gestion_Alquiler_Canchas.Forms.GESTION_PREDIOS.form_modificarPredios.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\bin\Debug\Gestion_Alquiler_Canchas.exe.config
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\bin\Debug\Gestion_Alquiler_Canchas.exe
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\bin\Debug\Gestion_Alquiler_Canchas.pdb
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.Forms.form_AlquileresReservas.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.Forms.form_clientes.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.Forms.GESTION_PREDIOS.form_agregarPredio.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.Forms.GESTION_PREDIOS.form_modificarPredios.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.Forms.form_menu.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\GYM_ADS.form_login.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.Forms.form_modificarCliente.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.Forms.form_nuevaReserva.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.Forms.form_nuevoCliente.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.Forms.form_Predios.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.Forms.UTILITARIOS.form_nuevoUsuario.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.Forms.UTILITARIOS.form_reportes.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.exe
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.pdb
+C:\Users\Usuario\Desktop\Nueva carpeta\git_copia\obj\Debug\Gestion_Alquiler_Canchas.Forms.GESTION_ALQUILER.form_ConfirmarReservas.resources

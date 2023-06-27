@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{54504EEC-8820-48E5-B722-1A32F420CCE7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Gestion_Alquiler_Canchas</RootNamespace>
+    <AssemblyName>Gestion_Alquiler_Canchas</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.5, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SqlClient.4.8.5\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alquiler_CanchasDataSet.cs">
+      <DependentUpon>Alquiler_CanchasDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Alquiler_CanchasDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Alquiler_CanchasDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Alquiler_CanchasDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Alquiler_CanchasDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ConeccionBD\ConeccionDB.cs" />
+    <Compile Include="ConeccionBD\StoredProcuderes.cs" />
+    <Compile Include="Forms\GESTION ALQUILER\form_AlquileresReservas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GESTION ALQUILER\form_AlquileresReservas.Designer.cs">
+      <DependentUpon>form_AlquileresReservas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GESTION ALQUILER\form_ConfirmarReservas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GESTION ALQUILER\form_ConfirmarReservas.Designer.cs">
+      <DependentUpon>form_ConfirmarReservas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GESTION CLIENTES\form_clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GESTION CLIENTES\form_clientes.Designer.cs">
+      <DependentUpon>form_clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GESTION PREDIOS\form_agregarPredio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GESTION PREDIOS\form_agregarPredio.Designer.cs">
+      <DependentUpon>form_agregarPredio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GESTION PREDIOS\form_modificarPredios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GESTION PREDIOS\form_modificarPredios.Designer.cs">
+      <DependentUpon>form_modificarPredios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UTILITARIOS\form_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UTILITARIOS\form_menu.Designer.cs">
+      <DependentUpon>form_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UTILITARIOS\form_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UTILITARIOS\form_login.Designer.cs">
+      <DependentUpon>form_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GESTION CLIENTES\form_modificarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GESTION CLIENTES\form_modificarCliente.Designer.cs">
+      <DependentUpon>form_modificarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GESTION ALQUILER\form_nuevaReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GESTION ALQUILER\form_nuevaReserva.Designer.cs">
+      <DependentUpon>form_nuevaReserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GESTION CLIENTES\form_nuevoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GESTION CLIENTES\form_nuevoCliente.Designer.cs">
+      <DependentUpon>form_nuevoCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GESTION PREDIOS\form_Predios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GESTION PREDIOS\form_Predios.Designer.cs">
+      <DependentUpon>form_Predios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UTILITARIOS\form_nuevoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UTILITARIOS\form_nuevoUsuario.Designer.cs">
+      <DependentUpon>form_nuevoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UTILITARIOS\form_reportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UTILITARIOS\form_reportes.Designer.cs">
+      <DependentUpon>form_reportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\GESTION ALQUILER\form_AlquileresReservas.resx">
+      <DependentUpon>form_AlquileresReservas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GESTION ALQUILER\form_ConfirmarReservas.resx">
+      <DependentUpon>form_ConfirmarReservas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GESTION CLIENTES\form_clientes.resx">
+      <DependentUpon>form_clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GESTION PREDIOS\form_agregarPredio.resx">
+      <DependentUpon>form_agregarPredio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GESTION PREDIOS\form_modificarPredios.resx">
+      <DependentUpon>form_modificarPredios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UTILITARIOS\form_menu.resx">
+      <DependentUpon>form_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UTILITARIOS\form_login.resx">
+      <DependentUpon>form_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GESTION CLIENTES\form_modificarCliente.resx">
+      <DependentUpon>form_modificarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GESTION ALQUILER\form_nuevaReserva.resx">
+      <DependentUpon>form_nuevaReserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GESTION CLIENTES\form_nuevoCliente.resx">
+      <DependentUpon>form_nuevoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GESTION PREDIOS\form_Predios.resx">
+      <DependentUpon>form_Predios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UTILITARIOS\form_nuevoUsuario.resx">
+      <DependentUpon>form_nuevoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UTILITARIOS\form_reportes.resx">
+      <DependentUpon>form_reportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Alquiler_CanchasDataSet.xsc">
+      <DependentUpon>Alquiler_CanchasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Alquiler_CanchasDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Alquiler_CanchasDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Alquiler_CanchasDataSet.xss">
+      <DependentUpon>Alquiler_CanchasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Alquiler_CanchasDataSet1.xsc">
+      <DependentUpon>Alquiler_CanchasDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Alquiler_CanchasDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Alquiler_CanchasDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Alquiler_CanchasDataSet1.xss">
+      <DependentUpon>Alquiler_CanchasDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\football-field.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_cliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_cliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-cliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_reserva.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circuloMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResportesMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NUEVO_USUARIOMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminar_predio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PRUEBA_JPG.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confirmarReservas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Confirmar_reserva_png.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
